@@ -1,0 +1,46 @@
+# Ignore virtual environment
+venv/
+.env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large output files and temporary files
+*.log
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.sav
+*.joblib
+*.npy
+*.npz
+*.json
+*.xml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook metadata (if needed)
+*.nbconvert.ipynb
+*.py[co]
+
+# Ignore cache directories and outputs
+__pycache__/
+*.out
+*.err
+
+# Ignore VSCode & Cursor-specific settings (if using them)
+.vscode/
+cursor.json
+*.swp
